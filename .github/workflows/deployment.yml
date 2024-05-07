@@ -1,4 +1,7 @@
 name: Node.js CI
+env:
+  SUPABASE_API_KEY: ${{ secrets.SUPABASE_API_KEY }}
+  SUPABASE_PROJECT_URL: ${{ secrets.SUPABASE_PROJECT_URL }}
 
 on:
     push:
