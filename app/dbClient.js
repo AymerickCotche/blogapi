@@ -1,4 +1,3 @@
-
 const { createClient } = require('@supabase/supabase-js')
 
 // eslint-disable-next-line no-undef
