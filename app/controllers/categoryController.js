@@ -7,7 +7,7 @@ module.exports = {
       if (!categories) {
         res.status(404).json("Categories not found")
       }
-      res.json(categories);
+      res.json(categories)
     } catch (error) {
       res.status(500).json({ error: error })
     }
