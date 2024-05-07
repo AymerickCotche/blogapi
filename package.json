@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint .",
-    "lint-fix": "eslint --fix ."
+    "test": "mocha --timeout 10000"
   },
   "author": "",
   "license": "ISC",
@@ -19,8 +17,10 @@
     "express-jsdoc-swagger": "^1.8.0"
   },
   "devDependencies": {
-    "@eslint/js": "^9.2.0",
+    "chai": "^5.1.0",
     "eslint": "^9.2.0",
-    "globals": "^15.1.0"
+    "globals": "^15.1.0",
+    "mocha": "^10.4.0",
+    "supertest": "^7.0.0"
   }
 }
