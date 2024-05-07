@@ -10,7 +10,7 @@ class Category {
 
     static async findAll() {
         try {
-            const { error, data} = await db.from('category').select()
+            const {data} = await db.from('category').select()
             return data.map(row => new Category(row))
         } catch (error) {
             console.log(error)

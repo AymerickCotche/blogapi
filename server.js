@@ -23,6 +23,7 @@ const options = {
       scheme: 'basic',
     },
   },
+  // eslint-disable-next-line no-undef
   baseDir: __dirname,
   filesPattern: './**/*.js',
   swaggerUIPath: '/api-docs',
